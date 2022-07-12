@@ -3,3 +3,77 @@ const height = 74;
 const message = `${name} is ${height} inches tall`;
 
 module.exports = {name, height, message};
+function doNothing() {}
+function sayHello() {
+    console.log("Hello!");
+}
+sayHello();
+function sayHelloToGuadalupe() {
+    console.log("Hello, Guadalupe!");
+}
+function sayHelloToLiz() {
+    console.log("Hello, Liz!");
+}
+function sayHelloToSamip() {
+    console.log("Hello, Samip!");
+}
+sayHelloToGuadalupe();
+sayHelloToLiz();
+sayHelloToSamip();
+function sayHelloTo(firstName) {
+    console.log(`Hello, ${firstName}!`);
+}
+sayHelloTo("Guadalupe");
+sayHelloTo("Jane");
+sayHelloTo("R2-D2");
+sayHelloTo(1);
+function say(greeting, firstName) {
+    console.log(`${greeting}, ${firstName}!`);
+}
+say("Julio", "hello");
+function say(greeting, firstName) {
+    console.log("firstName: ", firstName);
+    console.log("greeting: ", greeting);
+    console.log(`${greeting}, ${firstName}!`);
+  }
+  function add(x, y) {
+    return x + y;
+  }
+  console.log(add(1, 2));
+  function say(greeting, firstName) {
+    return `${greeting}, ${firstName}!`;
+  }
+  function say(greeting, firstName) {
+    console.log(`${greeting}, ${firstName}!`);
+  }
+  function add(x, y) {
+    x + y;
+  }
+  console.log(add(1, 2));
+  const sum = add(num1, num2);
+const message = `The sum of your numbers is: ${sum}.`;
+const message = `The sum of your numbers is: ${add(num1, num2)}.`;
+function say(greeting, firstName) {
+    return `${greeting}, ${firstName}!`;
+    console.log("I was called!");
+  }
+  console.log(say("Howdy", "partner"));
+  function say(greeting, firstName) {
+    console.log("I was called!");
+    return `${greeting}, ${firstName}!`;
+  }
+  function sayHelloTo(firstName = "User") {
+    console.log(`Hello, ${firstName}!`);
+  }
+function add(a, b) {
+  return a + b;
+}
+let number = 5;
+number++;
+number;
+number--;
+number;
+--number;
+number;
+++number;
+number;
